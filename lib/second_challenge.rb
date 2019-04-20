@@ -13,7 +13,7 @@ def second_challenge
     category.each do |element|
      
         items = element.values
-         binding.pry
+         
     end
   end
  items
