@@ -10,7 +10,10 @@ def second_challenge
 
   #code your solution here!
   groceries.each do |category, item| 
-    items << item.values
+    category.each do |element|
+      binding.pry
+         element.values
+    end
   end
  items
 end
