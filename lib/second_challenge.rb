@@ -1,6 +1,6 @@
 require 'pry'
 def second_challenge
-  items = []
+  
   groceries = {
    dairy: ["milk", "yogurt", "cheese"],
    vegetable: ["carrots", "broccoli", "cucumbers"],
@@ -9,7 +9,7 @@ def second_challenge
   }
 
   #code your solution here!
-  groceries.values.flatten
+  groceries.values
   
 end
 
