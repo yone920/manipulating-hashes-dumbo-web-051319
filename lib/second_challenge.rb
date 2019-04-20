@@ -12,8 +12,8 @@ def second_challenge
   groceries.each do |category, item| 
     category.each do |element|
      
-        items = element.values
-         
+       element
+         binding.pry
     end
   end
  items
